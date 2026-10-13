@@ -12,3 +12,18 @@ h1, h2, h3 {
   letter-spacing: 2px;
 }
 
+/* Give strong tags in the chorus that aggressive punch */
+.chorus strong {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  color: #ff3333;
+  letter-spacing: 1px;
+}
+
+/* Give em tags that eerie, dramatic Rosarivo italic feel */
+.verse em {
+  font-family: 'Rosarivo', serif;
+  font-style: italic;
+  color: #e2e8f0;
+  letter-spacing: 0.5px;
+}
