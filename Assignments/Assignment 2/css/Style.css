@@ -63,7 +63,8 @@ figcaption {
 
 /* Verses: standard line spacing and calm reading */
 .verse p {
-  font-size: 1rem;
+  font-size: 1.05rem; /* Up from 1rem */
+  line-height: 1.5;
   margin: 6px 0;
 }
 
@@ -80,11 +81,11 @@ figcaption {
 
 .chorus p {
   font-family: 'Inter', sans-serif;
-  font-size: 1.35rem;
+  font-size: 1.15rem; /* Down from 1.35rem */
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  line-height: 1.3;
+  letter-spacing: 0.5px; /* Down from 1px */
+  line-height: 1.4;
   color: #ffffff;
   margin: 6px 0;
 }
