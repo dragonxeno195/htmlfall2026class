@@ -1,0 +1,14 @@
+/* Base font for general body and clean reading */
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Stylized headers and dramatic accents */
+h1, h2, h3 {
+  font-family: 'Rosarivo', serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
