@@ -1,9 +1,23 @@
+/* ===================================================
+   1. GLOBAL PAGE LAYOUT & BASE TYPOGRAPHY
+   =================================================== */
+
 /* Base font for general body and clean reading */
+/* Page width, basic centering, and dark theme contrast */
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 1.6;
+  background-color: #121417;
+  color: #d1d5db;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 20px;
 }
+
+/* ===================================================
+   2. HEADINGS & TITLES
+   =================================================== */
 
 /* Stylized headers and dramatic accents */
 h1, h2, h3 {
@@ -12,39 +26,18 @@ h1, h2, h3 {
   letter-spacing: 2px;
 }
 
-/* Give strong tags in the chorus that aggressive punch */
-.chorus strong {
-  font-family: 'Inter', sans-serif;
-  font-weight: 900;
-  color: #ff3333;
-  letter-spacing: 1px;
+h1 {
+  font-size: 2.5rem;
+  color: #ffcc00;
 }
 
-/* Give em tags that eerie, dramatic Rosarivo italic feel */
-.verse em {
-  font-family: 'Rosarivo', serif;
-  font-style: italic;
-  color: #e2e8f0;
-  letter-spacing: 0.5px;
-}
-
-/* Page width, basic centering, and dark theme contrast */
-body {
-  background-color: #121417;
-  color: #d1d5db;
-  max-width: 650px;
-  margin: 0 auto;
-  padding: 20px;
-}
+/* ===================================================
+   3. HEADER & MEDIA (ALBUM ART)
+   =================================================== */
 
 header {
   text-align: center;
   margin-bottom: 30px;
-}
-
-h1 {
-  font-size: 2.5rem;
-  color: #ffcc00;
 }
 
 figure {
@@ -52,7 +45,7 @@ figure {
 }
 
 figure img {
-  max-width: 220px;
+  max-width: 320px;
   height: auto;
 }
 
@@ -61,11 +54,23 @@ figcaption {
   color: #9ca3af;
 }
 
+/* ===================================================
+   4. LYRICS & EMOTIONAL TYPOGRAPHY
+   =================================================== */
+
 /* Verses: standard line spacing and calm reading */
 .verse p {
   font-size: 1.05rem; /* Up from 1rem */
   line-height: 1.5;
   margin: 6px 0;
+}
+
+/* Give em tags that eerie, dramatic Rosarivo italic feel */
+.verse em {
+  font-family: 'Rosarivo', serif;
+  font-style: italic;
+  color: #e2e8f0;
+  letter-spacing: 0.5px;
 }
 
 /* Chorus: loud, bold, shouting */
@@ -82,12 +87,20 @@ figcaption {
 .chorus p {
   font-family: 'Inter', sans-serif;
   font-size: 1.15rem; /* Down from 1.35rem */
-  font-weight: 700;
+  font-weight: 500; /* Down from 700 */
   text-transform: uppercase;
   letter-spacing: 0.5px; /* Down from 1px */
   line-height: 1.4;
   color: #ffffff;
   margin: 6px 0;
+}
+
+/* Give strong tags in the chorus that aggressive punch */
+.chorus strong {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  color: #ff3333;
+  letter-spacing: 1px;
 }
 
 /* Repeated hook lines (So come on) */
@@ -105,6 +118,10 @@ figcaption {
   color: #ffcc00;
   text-transform: uppercase;
 }
+
+/* ===================================================
+   5. FOOTER
+   =================================================== */
 
 /* Clean footer */
 footer {
